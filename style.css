@@ -1,4 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
 * {
   box-sizing: border-box;
   border: none;
+}
+body {
+  background-color: #a3c7d6;
+  font-family: "Bakbak One", cursive;
 }
