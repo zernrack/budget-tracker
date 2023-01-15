@@ -5,7 +5,7 @@
   border: none;
 }
 body {
-  background-color: #a3c7d6;
+  background-color: #3f3b6c;
   font-family: "Bakbak One", cursive;
 }
 .container {
@@ -17,6 +17,7 @@ body {
 }
 .items-container {
   margin-top: 5rem;
+  padding-bottom: 2rem;
   border-radius: 30px;
   background: #e0e0e0;
 }
@@ -25,9 +26,32 @@ body {
   padding: 0 2rem 2rem 2rem;
   font-size: 40px;
 }
+.buttons {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #9f73ab;
+  border-radius: 28px;
+  border: 1px solid #3f3b6c;
+  cursor: pointer;
+  color: #000000;
+  font-family: "Bakbak One", cursive;
+  font-size: 18px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
 .input {
   margin: auto;
   display: block;
+
+  border: 1px solid #ffff;
+  border-radius: 0.3rem;
+  padding: 0.6rem 0.6rem;
+  outline: none;
+
+  font-weight: 400;
 }
 
 @media screen and (max-width: 480px) {
