@@ -15,26 +15,20 @@ body {
   justify-content: center;
   gap: 5rem;
 }
-.budget-container {
+.items-container {
   margin-top: 5rem;
   border-radius: 30px;
   background: #e0e0e0;
 }
-.budget-text {
+.container-text {
+  margin-bottom: 0;
   padding: 0 2rem 2rem 2rem;
   font-size: 40px;
 }
-
-.expenses-container {
-  margin-top: 5rem;
-  border-radius: 30px;
-  background: #e0e0e0;
+.input {
+  margin: auto;
+  display: block;
 }
-.expense-text {
-  padding: 0 2rem 2rem 2rem;
-  font-size: 40px;
-}
-
 
 @media screen and (max-width: 480px) {
   .container {
