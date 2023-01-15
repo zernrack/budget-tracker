@@ -34,3 +34,11 @@ body {
   padding: 0 2rem 2rem 2rem;
   font-size: 40px;
 }
+
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    gap: 0;
+  }
+}
